@@ -1,0 +1,65 @@
+[
+    {
+      "naam": "10x zak Berkenhout",
+      "soort": "Berkenhout",
+      "prijs": 70,
+      "volume": 0.3,
+      "img": "berkenhoutinnetzak.jpg"
+    },
+    {
+      "naam": "half krat Berkenhout",
+      "soort": "Berkenhout",
+      "prijs": 180,
+      "volume": 0.9,
+      "img": "halfkratberken.jpg"
+    },
+    {
+      "naam": "heel krat Berkenhout",
+      "soort": "Berkenhout",
+      "prijs": 325,
+      "volume": 1.8,
+      "img": "heelkratberken.jpg"
+    },
+    {
+      "naam": "10x zak Beukenhout",
+      "soort": "Beukenhout",
+      "prijs": 75,
+      "volume": 0.3,
+      "img": "beukenhoutinnetzak.jpg"
+    },
+    {
+      "naam": "half krat Beukenhout",
+      "soort": "Beukenhout",
+      "prijs": 200,
+      "volume": 0.9,
+      "img": "halfkratbeuken.jpg"
+    },
+    {
+      "naam": "heel krat Beukenhout",
+      "soort": "Beukenhout",
+      "prijs": 350,
+      "volume": 1.8,
+      "img": "heelkratbeuken.jpg"
+    },
+    {
+      "naam": "10x zak Eikenhout",
+      "soort": "Eikenhout",
+      "prijs": 72,
+      "volume": 0.3,
+      "img": "eikenhoutinnetzak.jpg"
+    },
+    {
+      "naam": "half krat Eikenhout",
+      "soort": "Eikenhout",
+      "prijs": 190,
+      "volume": 0.9,
+      "img": "halfkrateiken.jpg"
+    },
+    {
+      "naam": "heel krat Eikenhout",
+      "soort": "Eikenhout",
+      "prijs": 335,
+      "volume": 1.8,
+      "img": "heelkrateiken.jpg"
+    }
+  ]

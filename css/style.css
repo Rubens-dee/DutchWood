@@ -1,0 +1,38 @@
+html, body {
+    min-height: 100%;
+}
+.column-left {
+    background-color: #8fa382;
+    min-width: 150px;
+    width: 280px;
+    min-height: 100vh;
+}
+.jumbotron {
+    background-image: url("../img/HH.jpg");
+    background-size: cover;
+    min-height: 150px;
+    height: 25vh;
+}
+.pt-9 {
+    padding-top: 9rem;
+}
+.amount {
+    width: 45px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.fa {
+    color: green;
+}
+.border {
+    min-height: 125px;
+}
+.sticky-bottom { 
+    bottom: 50px;
+}
+.product {
+    min-height: 310px;
+}
