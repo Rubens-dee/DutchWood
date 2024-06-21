@@ -15,10 +15,10 @@
         <div class="d-flex container flex-row justify-content-between">
             <div>Admin Panel</div>
             <div class="btn-group" role="group" aria-label="Basic radio toggle button group" id="radio">
-                <input type="radio" class="btn-check" name="btnradio" id="orders" autocomplete="off" checked>
+                <input type="radio" class="btn-check" name="btnradio" id="orders" checked>
                 <label class="btn btn-outline-primary" for="orders">Orders</label>
               
-                <input type="radio" class="btn-check" name="btnradio" id="products" autocomplete="off">
+                <input type="radio" class="btn-check" name="btnradio" id="products">
                 <label class="btn btn-outline-primary" for="products">Products</label>
             </div>
         </div>
@@ -31,7 +31,7 @@
             </table>
         </div>
         <div id="pbody">
-            <img id="preview" onerror="this.style.display='none'"/>
+            <div id="preview" onerror="this.style.display='none'"></div>
         </div>
         <div id="sbody">
         </div>
@@ -57,11 +57,11 @@
         </div>
         <div class="mt-3">
             <label for="prijs" class="form-label">Prijs</label>
-            <input id="prijs" type="text" class="form-control">
+            <input id="prijs" type="number" class="form-control">
         </div>
         <div class="mt-3">
             <label for="volume" class="form-label">Volume(m3)</label>
-            <input id="volume" type="text" class="form-control">
+            <input id="volume" type="number" class="form-control">
         </div>
         <div class="mt-3">
             <label for="img" class="form-label">Afbeelding</label>

@@ -17,11 +17,15 @@ class Cart {
     }
 
     print(cartArray) {
-        const object = {"naam": this.naam, "prijs": this.prijs, "aantal": this.aantal};
+        const object = {
+            naam: this.naam,
+            prijs: this.prijs,
+            aantal: this.aantal,
+        };
         cartArray.push(object);
         const cartLocal = JSON.stringify(cartArray, null, 2);
         localStorage.setItem('cartData', cartLocal);
-    }     
+    }
 }
 
 export default Cart;

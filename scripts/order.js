@@ -5,7 +5,7 @@ const cartLocal = localStorage.getItem('cartData');
 const cartArray = JSON.parse(cartLocal);
 
 // loads data from localstorage which have been placed in the shopping cart
-// makes an overview table of the ordered products and gives the sum 
+// makes an overview table of the ordered products and gives the sum
 function loadTableData() {
     let sum = 0;
     const table = document.getElementById("table");
@@ -15,7 +15,7 @@ function loadTableData() {
             row.insertCell(0).innerHTML = item.naam;
             row.insertCell(1).innerHTML = item.aantal;
             row.insertCell(2).innerHTML = item.prijs;
-            const totaal = row.insertCell(3)
+            const totaal = row.insertCell(3);
             totaal.innerHTML = item.aantal * item.prijs;
             totaal.align = 'right';
             sum += Number(totaal.innerHTML);
@@ -37,7 +37,7 @@ function loadTableData() {
     } else {
         afrekenen.className = 'text-center h4';
         afrekenen.innerText = 'Nog geen producten in je winkelwagen';
-    }   
+    }
 }
 
 // writes the order to the local storage
@@ -53,7 +53,10 @@ function checkOut() {
     function print(checkOutArray) {
         const totaal = document.getElementById('sum').innerHTML;
         const now = new Date().toLocaleString();
-        const object = {"bedrag": totaal, "datum_tijd": now};
+        const object = {
+            bedrag: totaal,
+            datum_tijd: now,
+        };
         checkOutArray.push(object);
         const checkOutLocal = JSON.stringify(checkOutArray, null, 2);
         localStorage.setItem('checkOutData', checkOutLocal);
