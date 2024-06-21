@@ -22,6 +22,9 @@ Indien mogelijk wilde ik gaan voor een certificaat met Europees Erkende Studiepu
 # Project informatie
 Het betreft een website waar online stookhout besteld kan worden, middels het plaatsen van 1 of meerdere producten in een winkelmandje.
 De complete orders is te zien op de bestelpagina en kan dan worden afgerekend. Ook is er voor de administrator een pagina waar het onderhoud plaats kan vinden. Hier kunnen producten worden gewijzigd, verwijderd en toegevoegd worden. Er is ook een overzicht van de bestelde orders door alle gebruikers.
+
+De website is responsive gemaakt, zodat deze op meerdere devices gebruikt kan worden.
+
 ```sh
 De volgende talen zijn gebruikt voor het gebruik van de website:
 - CSS
